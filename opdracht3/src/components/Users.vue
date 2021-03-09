@@ -7,7 +7,7 @@
                 class="text-left cursor-pointer bg-yellow-50 px-6 mx-2 mt-2 py-2 rounded-full"
                 @click="swapElement(user, index)"
             >
-                {{ user.name }} - {{ user.age }}
+                {{ user.name }} - {{ user.age }} jaar
             </li>
         </transition-group>
     </ul>
