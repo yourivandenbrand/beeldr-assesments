@@ -18,4 +18,4 @@ const parseFilterUrlRescursive = (parts) => {
 
 parseFilterUrlRescursive(parts);
 
-console.log({ filters });
+window.console.log({ filters });
