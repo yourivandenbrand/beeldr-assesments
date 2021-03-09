@@ -1,5 +1,6 @@
 <template>
     <div id="app">
+        <p class="text-2xl font-bold mb-6">Beelders opdracht 3 (Vue)</p>
         <div class="buttons">
             <button
                 @click="sort('name')"
