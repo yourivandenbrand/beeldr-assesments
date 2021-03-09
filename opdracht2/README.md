@@ -14,4 +14,4 @@ krijgen.
 
 ## Oplossing
 
-Ik zou in deze een nieuwe PR branche `pull-request/1.3.x-master` aan maken, daar de master in mergen, uit de `release/1.3.x` de commits cherrypicking die door ons team zijn gemaakt. Dan testen of de pull-request branche blijft werken als alleen onze commits erin zitten samen met master. Vervolgens de nieuwe PR branche mergen met master.
+Ik zou in deze een nieuwe PR branche `pull-request/1.3.x-master` aan maken, daar de master in mergen, uit de `release/1.3.x` de commits cherrypicking die door ons team zijn gemaakt. Dan testen of de pull-request branche blijft werken als alleen onze commits erin zitten samen met master. Alles oke? Dan pas de nieuwe PR branche mergen met master.
