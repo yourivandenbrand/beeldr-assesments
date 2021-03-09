@@ -1,13 +1,15 @@
 <template>
     <ul class="w-64">
-        <li
-            v-for="(user, index) in sortedUsers"
-            :key="user.id"
-            class="text-left cursor-pointer bg-yellow-50 px-6 mx-2 mt-2 py-2 rounded-full"
-            @click="swapElement(user, index)"
-        >
-            {{ user.name }} - {{ user.age }}
-        </li>
+        <transition-group name="flip-list">
+            <li
+                v-for="(user, index) in sortedUsers"
+                :key="user.name"
+                class="text-left cursor-pointer bg-yellow-50 px-6 mx-2 mt-2 py-2 rounded-full"
+                @click="swapElement(user, index)"
+            >
+                {{ user.name }} - {{ user.age }}
+            </li>
+        </transition-group>
     </ul>
 </template>
 
@@ -53,4 +55,7 @@ export default {
 </script>
 
 <style>
+.flip-list-move {
+    transition: all 0.5s;
+}
 </style>
