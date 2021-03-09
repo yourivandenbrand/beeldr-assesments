@@ -3,6 +3,7 @@
 ## Omschrijving
 Voor deze opdracht gaan we er vanuit dat je al een
 beetje Vue kennis hebt.
+
 De opdracht is om een lijst van collega’s te kunnen
 sorteren op naam en leeftijd. De lijst van hieronder, op de volgende
 pagina, kan je gebruiken. Ook moeten deze kunnen worden toegevoegd
@@ -14,11 +15,14 @@ Bouw voor deze applicatie op zijn minst een extra component voor de
 users. Probeer tijdens het bouwen gebruik te maken van het volgende:
 Props, Computed en Class / Style Bindings. Er hoeft niet veel css
 aan te pas te komen. Maar beetje flexbox wordt gewaardeerd.
+
 Mocht je tijd over hebben dan zouden we ook graag iets willen zien
 met Vue Transitions binnen de applicatie (tip: Vue group
 transitions).
 
 ## Oplossing
+De oplossing vind je in deze map hieronder installatie procedure van de app.
+
 ### Project setup
 ```
 yarn install
